@@ -1,0 +1,161 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Montserrat", sans-serif;
+}
+.container{
+    flex: 1;
+}
+/* Navbar */
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: #222222 !important;
+}
+.nav-link:hover{
+    color: #fe424d !important;
+}
+
+.btn-search{
+    background-color: #fe424d;
+    color: white;
+    border-radius: 1rem;
+}
+
+.btn-search:hover{
+    background-color: #fe424d;
+    color: white;
+}
+
+.btn-search-input{
+    border-radius: 1rem;
+    padding: 0 2rem 0 1rem;
+}
+
+/* Footer */
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+    /* font-size: 1.5 rem; */
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+.f-info{
+    background-color: #efefef;
+    height: 8rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.f-info-socials i{
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
+}
+
+/* Cards */
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    border-radius: 1rem !important;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    height: 20rem !important;
+    object-fit: cover !important;
+
+}
+.card-body{
+    font-weight: 400;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+}
+.listing-link{
+    text-decoration: none;
+}
+
+.card-img-overlay{
+    opacity: 0;
+    border-radius: 1rem !important;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.1;
+    background-color: #ffffff;
+    
+}
+
+.btn{
+    /* background-color: #fe424d !important; */
+    border: none !important;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Show page */
+.btns{
+    display: flex;
+}
+
+.float{
+    position: absolute;
+    opacity: 1 !important;
+    z-index: 2000;
+}
+
+/* Filters and taxSwitch */
+
+#filters {
+    display: flex;
+}
+.filter{
+    text-align: center;
+    margin-right: 2rem;
+    opacity: 0.7;
+}
+.filter:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.filter p {
+    font-size: 0.8rem;
+}
+.filter i{
+    font-size: 1.2rem;
+}
+.tax-info{
+    display: none;
+}
+.tax-toggle{
+    border: 1px solid #222222;
+    border-radius: 1rem;
+    height: 2.8rem;
+    padding: 0.5rem  1rem;
+    display: flex;
+    align-items: center;
+}
+.form-check-input:checked {
+    background-color: #fe424d;
+    border-color: #fe424d;
+}
+.form-check-input:focus {
+    display: none;
+}   
