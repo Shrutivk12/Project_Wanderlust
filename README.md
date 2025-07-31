@@ -2,6 +2,9 @@
 
 **Wanderlust** is a full-stack web application inspired by Airbnb, where users can explore travel listings, add their own places, and leave reviews. Built using EJS for the frontend, Node.js and Express.js for the backend, and MapTiler for visualizing location data.
 
+## 🌐 Live Site
+https://project-wanderlust-2m7n.onrender.com/listings
+
 ---
 
 ## 🔧 Tech Stack
